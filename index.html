@@ -20,17 +20,44 @@
     <link rel="stylesheet" href="nav.css">
     <script src="script.js"></script>
     <style>
-        ul {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            border: 1px;
-            background-color
-        }
         
         li {
             float: left;
         }
+
+     ul {
+         margin:0;
+         padding:0;
+         overflow:hidden;
+         border:1px;
+         background-color:red;
+         position:fixed;
+         top:0;
+         }
+         
+     li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.ballon) {
+    background-color: black;
+}
+
+.ballon {
+    color: blue;
+    
+  
+}
+     
+
         
         li a {
             display: block;
@@ -72,6 +99,7 @@
 
 
 
+
     </div>
 
     <ul>
@@ -88,4 +116,6 @@
     </div>
 </body>
 
+<br><br><br>
+</body>
 </html>
