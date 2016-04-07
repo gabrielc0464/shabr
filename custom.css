@@ -7,7 +7,7 @@
         rgba(0,0,0,0.5)
        
       ),
-        url() no-repeat center;
+        url( img/hot-air-balloon-clipart.png) no-repeat center;
       background: cover
 }
 
@@ -22,11 +22,10 @@
     }
 
 
-    .text-center {
-      
-    }
+ 
+
     h1{
         background-color: gray;
-        color:red;
+    
     }
 
