@@ -1,5 +1,5 @@
 #jumbotron {
-           background: linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)), url('../img/balloon-1.jpg') center no-repeat fixed;
+           background:  linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)),url('../img/balloon-1.jpg') center no-repeat fixed;
           background: cover;
           text-align: center;
 }
@@ -113,3 +113,33 @@ li a:hover:not(.ballon) {
 
             
         }
+        
+        
+/*navbar*/
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container {
+    padding-top: 125px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar {
+    border-width: 0;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*end navbar*/
