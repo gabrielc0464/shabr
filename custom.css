@@ -1,7 +1,11 @@
 #jumbotron{
            background: linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)), url('../img/balloon-1.jpg') center no-repeat fixed;
           background: cover;
+
          
+
+          text-align: center;
+
 
 }
 
@@ -45,6 +49,75 @@
    
 }
 
+<<<<<<< HEAD
 h3{
   font-family: "Crimson Text",serif;
 }
+=======
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+        li {
+            float: left;
+        }
+
+     ul {
+         margin:0;
+         padding:0;
+         overflow:hidden;
+         border:1px;
+         position:fixed;
+         top:0;
+         }
+         
+     li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.ballon) {
+    background-color: black;
+}
+
+.ballon {
+    color: blue;
+    
+  
+}
+     
+
+        
+        li a {
+            display: block;
+
+            color: black;
+
+            color: blue;
+
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.ballon) {
+          color:black;
+        }
+        
+        li a.ballon {
+            color: black;
+
+            color: blue;
+
+            
+        }
+>>>>>>> fdc52bdfd1bb4f67172a7505cc79ed41b1d8114f
