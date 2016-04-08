@@ -1,12 +1,6 @@
 #jumbotron {
-      background: linear-gradient(
-        rgba(0,0,0,0.9),
-        rgba(0,0,0,0.9)
-       
-      ),
-      
-        url( '..img/hot-air-balloon-clipart.png') no-repeat center fixed;
-      background: cover;
+           background: linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)), url('../img/balloon-1.jpg') center no-repeat fixed;
+          background: cover;
 }
 
 
