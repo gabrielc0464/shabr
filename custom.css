@@ -1,15 +1,8 @@
-#jumbotron {
-           background:  linear-gradient( rgba(15, 63, 173, 0.3), rgba(0, 127, 218, 1)),url('../img/balloon-1.jpg') center no-repeat fixed;
-          background: cover;
-          text-align: center;
-}
-
-
 
     h2 {
       text-align: center;
       vertical-align: middle;
-      color: blue;
+      color:black;
 }
  html, body{
       width: 100%;
@@ -20,18 +13,20 @@
  
 
     h1{
-        background-color: gray;
-    
+        background-color: black;
+        color:white;
     }
     
       /*Small*/
     @media only screen and (min-width:768px) {
       h1 {
         font-size:60px;
+        color: white;
       }
       h2 {
         font-size:20px;
-        color:blue;
+        color:black;
+        font-family: cursive;
       }
     }
     
